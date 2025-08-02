@@ -44,3 +44,14 @@ Resources:
 - GitHub Learning Lab: https://lab.github.com/
 - Atlassian Git Tutorials: https://www.atlassian.com/git/tutorials
 - FreeCodeCamp Git & GitHub Crash Course: https://www.freecodecamp.org/news/git-and-github-crash-
+
+
+So here we are understanding some key features of git - 
+
+Branching: Allows you to create separate lines of development, so you can work on new features or fixes without affecting the main codebase.
+
+Merging: Combines changes from different branches into one, integrating work from multiple contributors.
+
+Distributed Architecture: Every developer has a full copy of the repository, including its history, enabling offline work and better collaboration.
+
+Fast Performance: Git is optimized for speed, making operations like committing, branching, and merging very quick, even for large projects.
