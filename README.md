@@ -120,7 +120,11 @@ Welcome! This guide is designed to help you transition from a Senior Customer Su
 | MongoDB CRUD & Queries      | ✅ / ❌   |
 | HTTP Methods & Status Codes | ✅ / ❌   |
 | JSON / XML Parsing          | ✅ / ❌   |
+<<<<<<< HEAD
 | Git Commands                | ✅ |
+=======
+| Git Commands                | ✅   |
+>>>>>>> 3c05ff9b6daeb5dcee6b2cc4bb5f365ac32c4b31
 | Terminal Basics             | ✅ / ❌   |
 | Monitoring Tools Overview   | ✅ / ❌   |
 | SLAs / KPIs                 | ✅ / ❌   |
