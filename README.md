@@ -120,7 +120,7 @@ Welcome! This guide is designed to help you transition from a Senior Customer Su
 | MongoDB CRUD & Queries      | ✅ / ❌   |
 | HTTP Methods & Status Codes | ✅ / ❌   |
 | JSON / XML Parsing          | ✅ / ❌   |
-| Git Commands                | ✅ / ❌   |
+| Git Commands                | ✅ |
 | Terminal Basics             | ✅ / ❌   |
 | Monitoring Tools Overview   | ✅ / ❌   |
 | SLAs / KPIs                 | ✅ / ❌   |
@@ -128,11 +128,3 @@ Welcome! This guide is designed to help you transition from a Senior Customer Su
 | Mock Interview Prep         | ✅ / ❌   |
 
 ---
-
-## 🎯 Final Tips
-
-- Stay calm and structured during interviews—talk through your thought process.
-- Mention your eagerness to grow and bridge your L1 experience into L2 technical responsibilities.
-- Review Brevo’s product offerings and B-Corp values to align your responses with their culture.
-
-Good luck with your preparation! You're closer than you think. 🚀
