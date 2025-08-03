@@ -1,1 +1,6 @@
-Things yet to come here.
+Terminal commands - 
+
+cd - Change directory - This is used to visi the file that is inside the main file we are currently in. 
+
+ls - List - It is used to see the list of files inside the current folder. 
+
