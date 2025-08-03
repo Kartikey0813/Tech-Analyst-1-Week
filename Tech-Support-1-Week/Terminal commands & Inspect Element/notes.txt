@@ -6,3 +6,7 @@ ls - List - It is used to see the list of files inside the current folder.
 
 ls -a - List of all files (including hidden files) - This command is used to get the list of all the files including the hidden files that can only be accessed via terminal. 
 
+cd .. - this is used to return back to the previous directory. 
+
+mkdir - Make Directory - This command is used to create another folder in the current folder through terminal. 
+

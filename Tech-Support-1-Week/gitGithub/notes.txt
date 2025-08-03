@@ -65,3 +65,23 @@ Four types of statuses in Git -
 3. Staged - Where the file is ready to be commited. 
 
 4. Unmodified - Where the file is not modified and everything is up to date. 
+
+Here are some common Git branch commands:- 
+
+git branch                # List all branches 
+
+git branch <name>         # Create a new branch
+
+git checkout <name>       # Switch to a branch
+
+git checkout -b <name>    # Create and switch to a new branch
+
+git merge <name>          # Merge a branch into the current branch
+
+git branch -d <name>      # Delete a branch
+
+git branch -m <old> <new> # Rename a branch
+
+git diff <Branch Name>    # This is used to check for the differences between two branches. 
+
+Merge Conflicts - These means that git is unable to resolve differences in to the code. This generally happens when there are different changes at the same line of code. 
