@@ -121,7 +121,7 @@ Welcome! This guide is designed to help you transition from a Senior Customer Su
 | HTTP Methods & Status Codes | ✅ / ❌   |
 | JSON / XML Parsing          | ✅ / ❌   |
 | Git Commands                | ✅   |
-| Terminal Basics             | ✅ / ❌   |
+| Terminal Basics             | ✅   |
 | Monitoring Tools Overview   | ✅ / ❌   |
 | SLAs / KPIs                 | ✅ / ❌   |
 | DevTools Usage              | ✅ / ❌   |
