@@ -4,3 +4,5 @@ cd - Change directory - This is used to visi the file that is inside the main fi
 
 ls - List - It is used to see the list of files inside the current folder. 
 
+ls -a - List of all files (including hidden files) - This command is used to get the list of all the files including the hidden files that can only be accessed via terminal. 
+
