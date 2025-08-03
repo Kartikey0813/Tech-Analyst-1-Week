@@ -55,3 +55,13 @@ Merging: Combines changes from different branches into one, integrating work fro
 Distributed Architecture: Every developer has a full copy of the repository, including its history, enabling offline work and better collaboration.
 
 Fast Performance: Git is optimized for speed, making operations like committing, branching, and merging very quick, even for large projects.
+
+Four types of statuses in Git - 
+
+1. Untracked - This means a new file or folder has been added which git cannot track because it has not been added and commited yet. 
+
+2. Modified - Some changes has been made to the codes without creation of any new files or folders. 
+
+3. Staged - Where the file is ready to be commited. 
+
+4. Unmodified - Where the file is not modified and everything is up to date. 
