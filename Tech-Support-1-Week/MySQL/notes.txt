@@ -2,7 +2,7 @@ We are now on it and will work today to complete it fully.
 
 Video content link - URL("https://youtu.be/yE6tIle64tU?si=oD9iaSwOR6jSf1Ye")
 
-Owner - Code with Harry 
+Owner - Code with Harry - 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -45,4 +45,23 @@ Examples: MongoDB (document), Redis (key-value), Cassandra (wide-column), Neo4j 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Installation done for MySQL and now its time for some action. Both MySQL community edition and WorkBench has been installed. 
+
+Commands:- 
+
+CREATE DATABASE Name-of-the-database;
+
+USE Name-of-the-database; 
+
+Command to create a table with constrains:- 
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    gender ENUM('Male', 'Female', 'Other'),
+    date_of_birth DATE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+Dropping a Database - This command is used to drop the complete database. Syntax - DROP DATABASE Name-of-the-database;
 
