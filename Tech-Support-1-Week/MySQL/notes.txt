@@ -1,1 +1,10 @@
 We are now on it and will work today to complete it fully. 
+
+What is a database:- A database is a place where we store our data in an organised way, so that it is 
+easily accessible and fast to fetch with easy commands and less efforts. 
+
+What is a query:- A query is a question that we ask to the database to fetch the details. So, it is a command that 
+we give to the database to get all the details from them. 
+
+What is DBMS:- DBMS stands for database management system. So, it is a system that manages the data into it. A few examples are MySQL, PostgresSQL, etc. 
+
