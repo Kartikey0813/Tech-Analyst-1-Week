@@ -65,3 +65,21 @@ CREATE TABLE users (
 
 Dropping a Database - This command is used to drop the complete database. Syntax - DROP DATABASE Name-of-the-database;
 
+My First SQL Script - 
+
+CREATE DATABASE startersql;
+USE startersql;
+
+CREATE TABLE users (
+	id INT auto_increment PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    gender ENUM('Male', 'Female', 'Others'),
+    date_of_birth DATE,
+    created_at TIMESTAMP DEFAULT current_timestamp
+);
+
+SELECT id, name, email FROM users;
+
+The above script creates a table and then shows the selected keys. 
+
