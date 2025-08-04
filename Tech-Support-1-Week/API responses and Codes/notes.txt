@@ -18,12 +18,12 @@ API response codes are standardized HTTP status codes that indicate the result o
 200 OK: Request succeeded; response contains requested data.
 201 Created: Resource created successfully (e.g., after POST).
 202 Accepted: Request accepted but not yet processed.
-204 No Content: Request succeeded, no content to return.
+204 No Content: Request succeeded, no content to return. In case of delete request. 
 
 
 3xx: Redirection:- 
 
-301 Moved Permanently: Resource has moved to a new URL.
+301 Moved Permanently: Resource has moved to a new URL. 
 302 Found: Resource temporarily moved.
 304 Not Modified: Resource not changed since last request.
 
