@@ -1,10 +1,48 @@
 We are now on it and will work today to complete it fully. 
 
+Video content link - URL("https://youtu.be/yE6tIle64tU?si=oD9iaSwOR6jSf1Ye")
+
+Owner - Code with Harry 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 What is a database:- A database is a place where we store our data in an organised way, so that it is 
 easily accessible and fast to fetch with easy commands and less efforts. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 What is a query:- A query is a question that we ask to the database to fetch the details. So, it is a command that 
 we give to the database to get all the details from them. 
 
-What is DBMS:- DBMS stands for database management system. So, it is a system that manages the data into it. A few examples are MySQL, PostgresSQL, etc. 
+Format:- SELECT * FROM customers;
+
+-----------------------------------------------------------DBMS------------------------------------------------------------------------------------------------------------------------------------------------
+
+What is DBMS:- DBMS stands for database management system. So, it is a system that interacts with the user, application and database to capture and analyse data. A few examples are MySQL, PostgresSQL, etc. 
+
+-----------------------------------------------------------CRUD--------------------------------------------------------------------------------------------------------------------------------------------------
+
+What is CRUD:- CRUD stands for Create, Read, Update and Delete. So, it is a set of operations that we can perform on a database. 
+CRUD operations are used throughout all the systems perform basic tasks and hence it was inportant to work on it. 
+
+Create - INSERT INTO customers (name, email) VALUES ('Kartikey Mishra', 'kartikeymishra509@gmail.com');
+
+Read - SELECT * FROM customers WHERE name = "Kartikey Mishra";
+
+Update - UPDATE customers SET email = 'kartikmishra686@gmail.com';
+
+Delete - DELETE FROM customers WHERE name = 'Kartikey Mishra';
+
+------------------------------------------------------Relational and Non-Relational Databses---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Relation Database:- store data in structured tables with rows and columns. Each table has a defined schema, and tables can be linked using relationships (foreign keys). They use SQL for queries.
+Examples: MySQL, PostgreSQL, Oracle
+
+Non-relational databases (NoSQL) store data in flexible formats like documents, key-value pairs, graphs, or wide-columns. They don’t require a fixed schema and are suitable for unstructured or rapidly changing data.
+Examples: MongoDB (document), Redis (key-value), Cassandra (wide-column), Neo4j (graph).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Installation done for MySQL and now its time for some action. Both MySQL community edition and WorkBench has been installed. 
 
