@@ -118,7 +118,7 @@ Welcome! This guide is designed to help you transition from a Senior Customer Su
 |-----------------------------|----------|
 | MySQL Queries & Joins       | ✅ / ❌   |
 | MongoDB CRUD & Queries      | ✅ / ❌   |
-| HTTP Methods & Status Codes | ✅ / ❌   |
+| HTTP Methods & Status Codes | ✅   |
 | JSON / XML Parsing          | ✅ / ❌   |
 | Git Commands                | ✅   |
 | Terminal Basics             | ✅   |
