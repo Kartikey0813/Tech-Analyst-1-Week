@@ -1,1 +1,68 @@
-We are about to start this topic - Letss Goooooooooooo
+We are about to start this topic 
+
+Here’s a detailed overview of API response codes and errors:
+
+API Response Codes:- 
+
+API response codes are standardized HTTP status codes that indicate the result of a request. They are grouped as follows:
+
+1xx: Informational:- 
+
+100 Continue: Request received, continue sending.
+
+101 Switching Protocols: Server is switching protocols.
+
+
+2xx: Success:- 
+
+200 OK: Request succeeded; response contains requested data.
+201 Created: Resource created successfully (e.g., after POST).
+202 Accepted: Request accepted but not yet processed.
+204 No Content: Request succeeded, no content to return.
+
+
+3xx: Redirection:- 
+
+301 Moved Permanently: Resource has moved to a new URL.
+302 Found: Resource temporarily moved.
+304 Not Modified: Resource not changed since last request.
+
+
+4xx: Client Errors:- 
+
+
+400 Bad Request: Request is malformed or invalid.
+401 Unauthorized: Authentication required or failed.
+403 Forbidden: Server refuses to fulfill the request.
+404 Not Found: Resource not found.
+405 Method Not Allowed: HTTP method not supported for resource.
+409 Conflict: Request conflicts with current state of resource.
+422 Unprocessable Entity: Request is well-formed but contains semantic errors.
+
+5xx: Server Errors:- 
+
+500 Internal Server Error: Generic server error.
+501 Not Implemented: Server does not support the functionality.
+502 Bad Gateway: Invalid response from upstream server.
+503 Service Unavailable: Server is overloaded or down.
+504 Gateway Timeout: Upstream server failed to respond in time.
+
+
+Common API Error Meanings:- 
+
+400 Bad Request: Usually means missing or invalid parameters.
+401 Unauthorized: Missing or incorrect authentication token.
+403 Forbidden: User does not have permission for the requested action.
+404 Not Found: The endpoint or resource does not exist.
+409 Conflict: Duplicate data or conflicting resource state.
+422 Unprocessable Entity: Validation errors in the request data.
+500 Internal Server Error: Unexpected error on the server side.
+
+
+How to Handle API Errors
+
+Read the error message: APIs often return a message or code in the response body.
+Check documentation: API docs explain error codes and possible solutions.
+Validate your request: Ensure all required fields and correct data types.
+Retry if appropriate: For 5xx errors, sometimes retrying helps.
+
