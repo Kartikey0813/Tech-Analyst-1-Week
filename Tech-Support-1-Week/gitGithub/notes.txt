@@ -1,6 +1,11 @@
 
 Detailed Notes on Git and GitHub:
 
+
+Video content link - URL("https://youtu.be/Ez8F0nW6S-w?si=DcEPtfcN-zajEG3l")
+
+Owner - APNA COLLEGE - 
+
 1. What is Git?
 - Git is a distributed version control system for tracking changes in source code during software development.
 - It allows multiple developers to work on a project simultaneously.
