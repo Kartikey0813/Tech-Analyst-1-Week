@@ -63,6 +63,9 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 Dropping a Database - This command is used to drop the complete database. Syntax - DROP DATABASE Name-of-the-database;
 
 My First SQL Script - 
@@ -83,3 +86,40 @@ SELECT id, name, email FROM users;
 
 The above script creates a table and then shows the selected keys. 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Data Types Explained 
+
+INT : Integer type, used for whole numbers.
+
+VARCHAR(100) : Variable-length string, up to 100 characters.
+
+ENUM : A string object with a value chosen from a list of permitted values. eg.
+
+gender ENUM('Male', 'Female', 'Other')
+
+DATE : Stores date values. eg date_of_birth DATE
+
+TIMESTAMP : Stores date and time, automatically set to the current timestamp when a row is created.
+
+BOOLEAN : Stores TRUE or FALSE values, often used for flags like is_active.
+
+DECIMAL(10, 2) : Stores exact numeric data values, useful for financial data. The first number is the total number of digits, and the second is the number of digits after the decimal point.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Constraints Explained
+
+AUTO_INCREMENT : Automatically generates a unique number for each row.
+
+PRIMARY KEY : Uniquely identifies each row in the table.
+
+NOT NULL : Ensures a column cannot have a NULL value.
+
+UNIQUE : Ensures all values in a column are different.
+
+DEFAULT : Sets a default value for a column if no value is provided. eg.
+
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, is_active BOOLEAN - DEFAULT TRUE
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
