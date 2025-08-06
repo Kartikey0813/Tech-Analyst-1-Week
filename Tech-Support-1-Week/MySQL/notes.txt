@@ -122,4 +122,54 @@ DEFAULT : Sets a default value for a column if no value is provided. eg.
 
 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, is_active BOOLEAN - DEFAULT TRUE
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------Working with Tables in MySQL-----------------------------------------------------------------------------------------------------------------------------------------
+
+             Selecting Data from a Table 
+
+Select All Columns
+   
+    SELECT * FROM users; This fetches every column and every row from the users table.
+
+Select Specific Columns
+    SELECT name, email FROM users;
+    This only fetches the name and email columns from all rows.
+
+Renaming a Table
+    To rename an existing table:
+    RENAME TABLE users TO customers;
+
+To rename it back:
+    RENAME TABLE customers TO users;
+
+
+Altering a Table
+    You can use ALTER TABLE to modify an existing table.
+
+Add a Column
+    ALTER TABLE users ADD COLUMN is_active BOOLEAN DEFAULT TRUE;
+
+Drop a Column
+    ALTER TABLE users DROP COLUMN is_active;
+
+Modify a Column Type
+    ALTER TABLE users MODIFY COLUMN name VARCHAR(150);
+
+Move a Column to the First Position
+    To move a column (e.g., email ) to the first position:
+    ALTER TABLE users MODIFY COLUMN email VARCHAR(100) FIRST;
+
+To move a column after another column (e.g., move gender after name ):
+    ALTER TABLE users MODIFY COLUMN gender ENUM('Male', 'Female', 'Other') AFTER name;
+
+Inserting Data into MySQL Tables
+    To add data into a table, we use the INSERT INTO statement.
+
+Insert Without Specifying Column Names (Full Row Insert)
+    This method requires you to provide values for all columns in order, except columns with default values or AUTO_INCREMENT.
+
+INSERT INTO users VALUES
+    (1, 'Alice', 'alice@example.com', 'Female', '1995-05-14', DEFAULT); 
+
+Not recommended if your table structure might change (e.g., new columns
+added later).
+
