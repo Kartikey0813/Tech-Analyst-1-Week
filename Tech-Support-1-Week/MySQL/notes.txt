@@ -193,4 +193,44 @@ Insert Multiple Rows at Once
     ('David', 'david@example.com', 'Male', '2000-08-09'),
     ('Eva', 'eva@example.com', 'Female', '1993-12-30');
     
-This is more efficient than inserting rows one by one.
+This is more efficient than inserting rows one by one. 
+
+Querying Data in MySQL using SELECT
+    The SELECT statement is used to query data from a table.
+
+Basic Syntax
+    SELECT column1, column2 FROM table_name;
+
+To select all columns:
+    SELECT * FROM users;
+
+Filtering Rows with WHERE
+    Equal To
+    SELECT * FROM users WHERE gender = 'Male';
+
+Not Equal To
+    SELECT * FROM users WHERE gender != 'Female';
+
+    -- or
+
+    SELECT * FROM users WHERE gender <> 'Female';
+
+Greater Than / Less Than
+    SELECT * FROM users WHERE date_of_birth < '1995-01-01';
+    SELECT * FROM users WHERE id > 10;
+
+Greater Than or Equal / Less Than or Equal
+    SELECT * FROM users WHERE id >= 5;
+    SELECT * FROM users WHERE id <= 20;
+
+Working with NULL
+    IS NULL
+    SELECT * FROM users WHERE date_of_birth IS NULL;
+
+    IS NOT NULL
+    SELECT * FROM users WHERE date_of_birth IS NOT NULL;
+
+BETWEEN
+    SELECT * FROM users WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-31';
+    IN
+    SELECT * FROM users WHERE gender IN ('Male', 'Other');ß
