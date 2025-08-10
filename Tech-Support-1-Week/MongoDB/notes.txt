@@ -90,3 +90,5 @@ Noted:- In MongoDB there is no need of Schema as we have in relational database.
 whatever schema we want and there won't be any issues and this makes MongoDB the most loved, scalable and 
 fast database management tools. 
 
+Now as we have completed the installation part and everything. We will get into mongodb now. 
+
