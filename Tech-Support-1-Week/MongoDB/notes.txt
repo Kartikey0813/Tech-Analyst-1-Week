@@ -1,4 +1,6 @@
--------------------------- MongoDB --------------------------
+-------------------------- MongoDB -------------------------- 
+
+Video URL("https://youtu.be/J6mDkcqU_ZE?si=n6zQSGXEtUf_JWL_").
 
 What is MongoDB? 
 - MongoDB is a popular open-source, non-relational (NoSQL) database that stores data in a flexible, 
@@ -24,4 +26,23 @@ Example Document:-
     "zip": "201301"
   }
 }
+
+Now how to install MongoDB Server. 
+
+1. Go to this URL("https://www.mongodb.com/try/download/community"). 
+
+2. Download the ".tgz" file and extact it. 
+
+3. Open the extracted file and then open the bin folder. 
+
+4. Open the "mongod" file in terminal. 
+
+5. click on the cammand- mongod --help. This helps us to get all the possible commands inside a directory. 
+
+6. Now we need to change the data directory. This can be done by argument- --dbpath arg. 
+
+7. Please make sure to have the db folder in the correct place. 
+
+8. Now give this command "./mongod --dbpath Users/mongoServers/db". For your folder name it as .mongod --pbpath Users/"your file name"/db
+
 
