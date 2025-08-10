@@ -1,2 +1,27 @@
 -------------------------- MongoDB --------------------------
 
+What is MongoDB? 
+- MongoDB is a popular open-source, non-relational (NoSQL) database that stores data in a flexible, 
+JSON-like format called BSON (Binary JSON). Unlike traditional relational databases that use tables and rows, 
+MongoDB uses collections and documents, allowing for dynamic schemas and easy storage of complex, hierarchical data.
+
+Key features:
+
+Document-oriented: Data is stored as documents in collections, making it easy to represent real-world objects.
+Schema-less: Collections do not require a fixed schema, so each document can have different fields.
+Scalable: Supports horizontal scaling through sharding, making it suitable for large-scale applications.
+High performance: Optimized for fast read and write operations.
+Rich querying: Supports powerful queries, indexing, and aggregation.
+
+Example Document:- 
+
+{
+  "name": "Kartikey Mishra",
+  "email": "kartikey@gmail.com",
+  "age": 25,
+  "address": {
+    "city": "Noida",
+    "zip": "201301"
+  }
+}
+
