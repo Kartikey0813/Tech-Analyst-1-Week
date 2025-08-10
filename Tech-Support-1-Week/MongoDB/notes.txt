@@ -69,4 +69,24 @@ Download steps:-
 
     3. For Mac, drag and drop the MongoDB Compass icon to Application. This will install the app into your mac. 
 
-    4. 
+    4. Windows users can follow along. 
+
+Now as we already have the server up and running. We will launch the app and just click on connect and this 
+will connect the Compass with the MongoDB server. 
+
+Now I have create a demo Database- employees and then a collection named managers and i will need to create
+documents in it. 
+
+example:- 
+    {
+    "_id": {
+        "$oid": "6898c7baf38228d94e961906"
+    },
+    "name": "rohan",
+    "role": "programmer"
+    }
+
+Noted:- In MongoDB there is no need of Schema as we have in relational database. We can add documents with 
+whatever schema we want and there won't be any issues and this makes MongoDB the most loved, scalable and 
+fast database management tools. 
+
