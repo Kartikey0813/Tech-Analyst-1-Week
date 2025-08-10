@@ -28,21 +28,45 @@ Example Document:-
 }
 
 Now how to install MongoDB Server. 
+    1. Go to this URL("https://www.mongodb.com/try/download/community"). 
 
-1. Go to this URL("https://www.mongodb.com/try/download/community"). 
+    2. Download the ".tgz" file and extact it. 
 
-2. Download the ".tgz" file and extact it. 
+    3. Open the extracted file and then open the bin folder. 
 
-3. Open the extracted file and then open the bin folder. 
+    4. Open the "mongod" file in terminal. 
 
-4. Open the "mongod" file in terminal. 
+    5. click on the cammand- mongod --help. This helps us to get all the possible commands inside a directory. 
 
-5. click on the cammand- mongod --help. This helps us to get all the possible commands inside a directory. 
+    6. Now we need to change the data directory. This can be done by argument- --dbpath arg. 
 
-6. Now we need to change the data directory. This can be done by argument- --dbpath arg. 
+    7. Please make sure to have the db folder in the correct place. 
 
-7. Please make sure to have the db folder in the correct place. 
+    8. Now give this command "./mongod --dbpath Users/mongoServers/db". For your folder name 
+    it as .mongod --pbpath Users/"your file name"/db
 
-8. Now give this command "./mongod --dbpath Users/mongoServers/db". For your folder name it as .mongod --pbpath Users/"your file name"/db
+
+Now how to install MongoDB Compass and What is MongoDB Compass. 
+
+MongoDB Compass- 
+    MongoDB Compass is a graphical user interface (GUI) tool provided by MongoDB for visually exploring, 
+    managing, and interacting with your MongoDB databases. It allows users to connect to MongoDB instances,
+    view and edit documents, run queries, analyze schema, and monitor database performance—all without writing 
+    command-line code.
+
+Key features:
+    Visualize and browse collections and documents
+    Build and run queries with a visual query builder
+    Analyze schema and data distributions
+    Create, update, and delete documents
+    View indexes and performance statistics
 
 
+Download steps:- 
+    1. Download the suitable file as per your operating system from here:- URL("https://www.mongodb.com/try/download/compass"). 
+    
+    2. Double click the downloaded file. 
+
+    3. For Mac, drag and drop the MongoDB Compass icon to Application. This will install the app into your mac. 
+
+    4. 
