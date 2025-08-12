@@ -116,13 +116,13 @@ Welcome! This guide is designed to help you transition from a Senior Customer Su
 
 | Topic                        | Covered? |
 |-----------------------------|----------|
-| MySQL Queries & Joins       | ✅ / ❌   |
-| MongoDB CRUD & Queries      | ✅ / ❌   |
+| MySQL Queries & Joins       | ✅   |
+| MongoDB CRUD & Queries      | ✅   |
 | HTTP Methods & Status Codes | ✅   |
 | JSON / XML Parsing          | ✅ / ❌   |
 | Git Commands                | ✅   |
 | Terminal Basics             | ✅   |
-| Monitoring Tools Overview   | ✅ / ❌   |
+| Monitoring Tools Overview   | ✅   |
 | SLAs / KPIs                 | ✅ / ❌   |
 | DevTools Usage              | ✅ / ❌   |
 | Mock Interview Prep         | ✅ / ❌   |
